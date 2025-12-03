@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Power Packs Data Exporter",
+  "version": "1.0.0",
+  "description": "Export your Power Packs collection data",
+  "permissions": ["cookies", "activeTab"],
+  "host_permissions": ["https://powerpacks.gamestop.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Power Packs Data Exporter"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://powerpacks.gamestop.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
