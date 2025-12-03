@@ -1,8 +1,6 @@
 # Power Packs Data Exporter
 
-> **Installation Guide:**
-
-https://www.notion.so/cdcm/Power-Packs-Extension-Installation-2beb28c4b267801c842dec02b79365f8
+> **Installation Guide:** https://www.notion.so/cdcm/Power-Packs-Extension-Installation-2beb28c4b267801c842dec02b79365f8
 
 A browser extension to export your Power Packs collection data from powerpacks.gamestop.com.
 
