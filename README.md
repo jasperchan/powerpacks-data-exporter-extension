@@ -21,6 +21,7 @@ A browser extension to export your Power Packs collection data from https://powe
 
 9. Open up the extension and click **Download Collection**.
    <img width="1994" height="728" alt="image" src="https://github.com/user-attachments/assets/96fba9ee-8e2a-46d4-bf28-3e983aeae42c" />
+   Download will automatically start once the entire collection is fetched. Example download file: [powerpacks-collection-2025-12-03T06-49-11.txt](https://raw.githubusercontent.com/jasperchan/powerpacks-data-exporter-extension/refs/heads/main/examples/powerpacks-collection-2025-12-03T06-49-11.txt)
 
 ## Features
 
