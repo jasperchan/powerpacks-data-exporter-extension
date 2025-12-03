@@ -10,6 +10,7 @@
     "package:firefox": "npm run build:firefox && cd dist/firefox && zip -r ../../powerpacks-data-exporter-$npm_package_version-firefox.zip .",
     "package": "npm run package:chrome && npm run package:firefox",
     "clean": "rm -rf dist *.zip",
-    "bump": "npm version minor --no-git-tag-version"
+    "bump": "npm version minor --no-git-tag-version",
+    "release": "npm run clean && npm run package && gh release create v$npm_package_version powerpacks-data-exporter-$npm_package_version-chrome.zip powerpacks-data-exporter-$npm_package_version-firefox.zip --title \"v$npm_package_version\" --generate-notes"
   }
 }
